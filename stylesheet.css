@@ -1,0 +1,265 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Avenir Next"
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none
+}
+.header {
+  background-color:#2e385c;
+  color:#fff;
+  height: 90px;
+}
+
+.header-logo {
+  float:left;
+  font-size: 31px;
+  padding: 20px 40px;
+  font-family:Algerian;
+}
+
+.header-list li {
+  float:left;
+  padding: 33px 20px;
+  font-size: 19px;
+  margin-left:80px;
+}
+.main {
+  text-align:center;
+  background-image:rgba(169, 169, 169 0.5);
+  padding-top: 50px;
+}
+
+.container-top {
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #8B0000;
+}
+
+.container-top h1 {
+  font-size: 50px;
+  letter-spacing:25px;
+  cursor: text;
+  opacity: 0.7;
+  padding-bottom: 0px;
+}
+
+.fancy {
+   font-weight: bold;
+           text-shadow: 4px 4px 3px #77f;
+}
+
+h1:hover {
+  background-color: #F08080;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+.container-top h2 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  cursor: text;
+}
+
+.marquee h2 {
+  overflow: hidden;
+  position: relative;
+}
+
+.btn {
+  padding-top: 35px;
+  padding-bottom:35px;
+}
+
+.btn-wrapper {
+  padding: 15px 40px;
+  background-color: #32CD32;
+  cursor: pointer;
+  box-shadow: 0 5px #2E8B57;
+  border-radius: 5px;
+
+}
+
+.btn-wrapper:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+  color:white;
+}
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size:40px;
+  letter-spacing:10px;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+  top:-5px;
+
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 123px;
+  width: 71%;
+  color: white;
+  text-align:center;
+  margin-left: 50px;
+}
+
+.h4 {
+
+}
+.txt-contents {
+  width: 70%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #2E3D6D;
+}
+.extra2 {
+  height:700px;
+}
+.extra2 h2{
+  background-color:#191970 ;
+  opacity:75%;
+  color:#dfe6e9;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.each-profile {
+  padding-top:20px;
+  text-align:center;
+  width:20%;
+  float:left;
+  /*height:200px;*/
+  height:80%
+}
+
+.each-profile img{
+  width:60%;
+  height:160px;
+  width:160px;
+  border-radius:50%;
+}
+
+.surabaya{
+  background-color:#dfe6e9;
+  /*background-color: rgba(0,0,128,0.35);*/
+}
+
+.bogor {
+  background-color:#b2bec3;
+  color:#192a56;
+}
+
+.palembang {
+  background-color: #b2bec3;
+  color:#192a56;
+}
+
+.medan {
+  background-color:#d2dae2;
+  color:#192a56;
+}
+
+.kebumen {
+  background-color: #b2bec3;
+  /*background-color: rgba(70,130,1800,0.35);*/
+}
+
+.each-profile p{
+  text-align:center;
+  width:80%;
+  padding: 5px 20px;
+  font-family: Georgia;
+  font-size:15px;
+}
+
+.ket{
+  font-size:15px;
+
+}
+.disini:hover{
+  color:red;
+}
+
+.footer {
+  background-color: #383b42;
+  height: 100px;
+  color: #fff;
+  padding: 40px;
+
+}
+
+.footer-logo {
+  font-size: 32px;
+  float:left;
+  font-family:Algerian;
+}
+
+.footer-list {
+  float:right;
+}
+.footer-list li{
+  padding: 10px;
+}
+
+.heading h2 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+}
+
+.extra2 h2 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+}
+.lesson-icon {
+  position: relative;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%   {background-color:yellow; left:0px; top:0px;}
+  50%   {background-color:green; left:0px; top:0px;}
+  75%   {background-color:blue; left:0px; top:0px;}
+  100%  {background-color:magenta; left:0px; top:0px}

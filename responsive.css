@@ -1,0 +1,25 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .extra2 h2 {
+    height: 70px;
+    margin-top: 500px;
+    padding-bottom: 15px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 50%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+}
